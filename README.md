@@ -28,3 +28,6 @@ Consultar toda la configuración
 ```
 git config --list
 ```
+
+
+Esta línea fue creada en la rama master.
