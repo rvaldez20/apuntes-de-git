@@ -29,8 +29,7 @@ Consultar toda la configuración
 git config --list
 ```
 
-## Varios repositorios remotos
-Podemos configurar un mismo proyecto para sincronizar cambios con varios repositorios remotos (github | bitbucket).
+
 
 
 Esta línea fue creada en la rama master.
