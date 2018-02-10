@@ -24,7 +24,4 @@ Consultar toda la configuración
 git config --list
 ```
 
-
-
-
-Esta línea fue creada en la rama master.
+Esta línea se agrego desde un equipo windows conectado al repositorio local con Github atravez de HTTPS
