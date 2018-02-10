@@ -23,5 +23,3 @@ Consultar toda la configuración
 ```
 git config --list
 ```
-
-Esta línea se agrego desde un equipo windows conectado al repositorio local con Github atravez de HTTPS
