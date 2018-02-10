@@ -1,7 +1,10 @@
-### git tag
-Listar las etiquetas en orden alfabético.
+# git tag
+Listar las etiquetas existentes.
 
-### git tag -a nom_etiqueta -m mensaje_etiqueta
+## git tag nom_etiqueta
+Crea una etiqueta
+
+## git tag -a nom_etiqueta -m mensaje_etiqueta
 Etiqueta anotada. Se guarda en la base de datos de git como un objeto entero. Tiene un checksum y contiene el nombre del etiquetador, correo, electrónico y fecha; y un mensaje asociado.
 
 ```
