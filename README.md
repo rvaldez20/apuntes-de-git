@@ -23,3 +23,12 @@ Consultar toda la configuración
 ```
 git config --list
 ```
+
+## Configuración de SSH en windows
+1.- Creamos una carpeta llamada `llaves-ssh` en el disco `C:`para evitar problemas de ruta.
+2.- Ejecutamos el comando `ssh-keygen -t rsa -C "mi-correo"`
+El correo debe ser el mismo con el que se registro en github para evitar posibles problemas con rutas.
+Dejamos el passphrase vacio y entre 2 veces.
+3.- Iniciamos el ssh-agent en background ejecutabdo el comando  `eval "$(ssh-agent -s)"`
+4.- Agregamos la lista ssh generada a ssh-agent ejecutando `ssh-add /c/llaves-ssh/github_rsa`
+5.- DEsde ahora podemos hacer push y pull sin que github nos este pidiend el acceo.
